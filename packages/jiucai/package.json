@@ -1,0 +1,21 @@
+{
+  "name": "@dhxy2/jiucai",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "unpkg": "dist/index.js",
+  "style": "dist/theme-jiucai/index.css",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhxy2/jiucai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhxy2/jiucai/issues"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^2.0.0-beta.6"
+  }
+}

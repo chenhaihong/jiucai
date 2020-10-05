@@ -1,0 +1,13 @@
+node_modules
+dist
+lib
+
+vscode
+.idea
+.DS_Store
+*.local
+yarn-error.log
+lerna-debug.json
+lerna-debug.log
+yarn-error.log
+coverage/

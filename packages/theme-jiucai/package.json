@@ -1,0 +1,22 @@
+{
+  "name": "@dhxy2/theme-jiucai",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "erye <erye@tiiit.cn>",
+  "homepage": "https://github.com/dhxy2/jiucai#readme",
+  "license": "MIT",
+  "main": "lib/theme-jiucai.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhxy2/jiucai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhxy2/jiucai/issues"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-dart-sass": "^1.0.2"
+  }
+}
