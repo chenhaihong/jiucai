@@ -1,5 +1,10 @@
-import { App } from 'vue'
-import Jiucai from './src/index.vue'
-export default (app: App): void => {
-  app.component(Jiucai.name, Jiucai)
+import type { App } from 'vue'
+import JcAlert from '@dhxy2/alert'
+
+export { JcAlert }
+
+const install = (app: App) => {
+  JcAlert(app)
 }
+
+export default { install }
