@@ -10,29 +10,15 @@
   padding: 10px 20px;
   border: 1px solid #bbb;
 
-  @include e('header') {
-    color: red;
-  }
-
   @include e('body') {
-    color: green;
-  }
+    color: red;
 
-  @include e('footer') {
-    color: blue;
-
-    &.is-ok {
-      color: white;
+    @include m('danger') {
+      color: blue;
     }
-  }
 
-  @include e('footer--large') {
-    color: white;
-  }
-  @include e('footer.is-ok') {
-    color: red;
-  }
-  @include e('footer:hover') {
-    color: red;
+    @include spec-selector('--large') {
+      color: black;
+    }
   }
 }
