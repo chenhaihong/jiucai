@@ -1,1 +1,10 @@
-$prefix: jc-;
+$font-stack: ('Helvetica', 'Arial', sans-serif);
+
+$jc--color--primary: black;
+$jc--color--active: black;
+
+$breakpoints: (
+  'small': 767px,
+  'medium': 992px,
+  'large': 1200px,
+);

@@ -1,6 +1,7 @@
+@import 'mixins/mixins';
 @import 'common/var';
 
-.#{$prefix}alert {
+@include b('alert') {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -8,11 +9,30 @@
 
   padding: 10px 20px;
   border: 1px solid #bbb;
-}
 
-.#{$prefix}alert__header {
-}
-.#{$prefix}alert__body {
-}
-.#{$prefix}alert__footer {
+  @include e('header') {
+    color: red;
+  }
+
+  @include e('body') {
+    color: green;
+  }
+
+  @include e('footer') {
+    color: blue;
+
+    &.is-ok {
+      color: white;
+    }
+  }
+
+  @include e('footer--large') {
+    color: white;
+  }
+  @include e('footer.is-ok') {
+    color: red;
+  }
+  @include e('footer:hover') {
+    color: red;
+  }
 }
